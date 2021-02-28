@@ -1,4 +1,4 @@
-const_TelegramBot=require ('node-telegram-bot-api')
+const TelegramBot = require ('node-telegram-bot-api')
 const os = require ('os')
 
 const bot = new TelegramBot ('1635277664:AAHTRqgf5b31ztG-KtV9dhmTlL748EXWtoE', {polling: true})
